@@ -6,14 +6,13 @@ Merge the two lists into one sorted list. The list should be made by splicing to
 
 Return the head of the merged linked list.
 
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
+
+ Definition for singly-linked list.
+ function ListNode(val, next) {
+     this.val = (val===undefined ? 0 : val)
+     this.next = (next===undefined ? null : next)
+ }
+
 
 Example:
 Input: list1 = [1,2,4], list2 = [1,3,4]
